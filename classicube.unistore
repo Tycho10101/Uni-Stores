@@ -1,0 +1,58 @@
+{
+  "storeContent": [
+    {
+      "Classicube.3dsx": {
+        "script": [
+          {
+            "file": "https://nightly.link/UnknownShadow200/ClassiCube/workflows/build_3ds/master/ClassiCube-3ds.3dsx.zip",
+            "output": "/ClassiCube-3ds.3dsx.zip",
+            "type": "downloadFile"
+          },
+          {
+            "file": "/ClassiCube-3ds.3dsx.zip",
+            "input": "ClassiCube-3ds.3dsx",
+            "output": "%3DSX%/Classicube/Classicube.3dsx",
+            "type": "extractFile"
+          },
+          {
+            "file": "/ClassiCube-3ds.3dsx.zip",
+            "type": "deleteFile"
+          }
+        ],
+        "size": "1 MiB"
+      },
+      "info": {
+        "author": "UnknownShadow",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "3DS"
+        ],
+        "description": "Latest Dev version of Classicube.",
+        "icon_index": 1,
+        "last_updated": "Check Github",
+        "license": "",
+        "releasenotes": "Check Github",
+        "screenshots": [],
+        "title": "Classicube-Dev",
+        "version": "Latest-Dev",
+        "wiki": ""
+      }
+    }
+  ],
+  "storeInfo": {
+    "author": "Tycho10101",
+    "description": "A Universal DB for getting Classicube on the 3ds",
+    "dsSheet": "classicube.tdx",
+    "dsSheetURL": "",
+    "file": "classicube.unistore",
+    "infoURL": "https://Tycho10101.github.io/Uni-Stores/classicube-info.json",
+    "revision": 0,
+    "sheet": "classicube.t3x",
+    "sheetURL": "",
+    "title": "Classicube",
+    "url": "https://Tycho10101.github.io/Uni-Stores/classicube.unistore",
+    "version": 3
+  }
+}
