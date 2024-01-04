@@ -21,6 +21,16 @@
         ],
         "size": "1 MiB"
       },
+      "Classicube.cia": {
+        "script": [
+          {
+            "type": "promptMessage",
+            "message": "Cia is not being produced yet",
+            "count": 0
+          }
+        ],
+        "size": "1 MiB"
+      },
       "info": {
         "author": "UnknownShadow",
         "category": [
@@ -39,6 +49,46 @@
         "version": "Latest-Dev",
         "wiki": ""
       }
+    },
+    {
+      "Classicube.3dsx": {
+        "script": [
+          {
+            "type": "promptMessage",
+            "message": "No release versions yet",
+            "count": 0
+          }
+        ],
+        "size": "1 MiB"
+      },
+      "Classicube.cia": {
+        "script": [
+          {
+            "type": "promptMessage",
+            "message": "No release versions yet",
+            "count": 0
+          }
+        ],
+        "size": "1 MiB"
+      },
+      "info": {
+        "author": "UnknownShadow",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "3DS"
+        ],
+        "description": "Latest Stable version of Classicube.",
+        "icon_index": 1,
+        "last_updated": "Check Github",
+        "license": "",
+        "releasenotes": "Check Github",
+        "screenshots": [],
+        "title": "Classicube",
+        "version": "Latest-Stable",
+        "wiki": ""
+      }
     }
   ],
   "storeInfo": {
@@ -47,8 +97,7 @@
     "dsSheet": "classicube.tdx",
     "dsSheetURL": "",
     "file": "classicube.unistore",
-    "infoURL": "https://Tycho10101.github.io/Uni-Stores/classicube-info.json",
-    "revision": 0,
+    "revision": 1,
     "sheet": "classicube.t3x",
     "sheetURL": "",
     "title": "Classicube",
