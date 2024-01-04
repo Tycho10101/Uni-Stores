@@ -2,16 +2,26 @@
 ## How To Use 
 (Requires modded 3ds, or emulator)
  1. Goto/get [Universal-Updater](https://universal-team.net/projects/universal-updater.html#downloads). 
+
 ![Screenshot 1](Docs/1.bmp)
- 2. Goto settings at the bottom left corner. 
+
+ 3. Goto settings at the bottom left corner. 
+
 ![Screenshot 2](Docs/2.bmp)
- 3. Goto "Select UniStore..." 
+
+ 5. Goto "Select UniStore..." 
+
 ![Screenshot 3](Docs/3.bmp)
- 4. Hit the + button on the bottom 
+
+ 7. Hit the + button on the bottom 
 ![Screenshot 4](Docs/4.bmp)
- 5. Hit the Keyboard icon 
+
+ 9. Hit the Keyboard icon 
+
 ![Screenshot 5](Docs/5.bmp)
- 6. Put in the url for the UniStore that you want in the follow in list 
+
+ 11. Put in the url for the UniStore that you want in the follow in list
+
 ![Screenshot 6](Docs/6.bmp)
 
 |Name|Url|
