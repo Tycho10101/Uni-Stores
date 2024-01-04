@@ -6,6 +6,7 @@
  4. Hit the + button on the bottom
  5. Hit the Keyboard icon
  6. Put in the url for the UniStore that you want in the follow in list
+
 |Name|Url|
 |-|-|
 |classicube.unistore|https://Tycho10101.github.io/Uni-Stores/classicube.unistore|
