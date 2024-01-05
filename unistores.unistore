@@ -1,0 +1,51 @@
+{
+  "storeContent": [
+    {
+      "classicube": {
+        "script": [
+          {
+            "file": "https://tycho10101.github.io/Uni-Stores/classicube.unistore",
+            "output": "%3DSX%/Universal-Updater/stores/classicube.unistore",
+            "type": "downloadFile"
+          },
+          {
+            "file": "https://tycho10101.github.io/Uni-Stores/classicube.t3x",
+            "output": "%3DSX%/Universal-Updater/stores/classicube.t3x",
+            "type": "downloadFile"
+          }
+        ],
+        "size": "1 MiB"
+      },
+      "info": {
+        "author": "Tycho10101",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "3DS"
+        ],
+        "description": "UniStore For Classicube.",
+        "icon_index": 0,
+        "sheet_index": 0,
+        "last_updated": "Check Github",
+        "license": "",
+        "releasenotes": "Check Github",
+        "screenshots": [],
+        "title": "classicube unistore",
+        "version": "Check Github",
+        "wiki": ""
+      }
+    }
+  ],
+  "storeInfo": {
+    "author": "Tycho10101",
+    "description": "A UniStore For UniStores",
+    "file": "unistores.unistore",
+    "revision": 0,
+    "sheet": "unistores.t3x",
+    "sheetURL": "https://Tycho10101.github.io/Uni-Stores/unistores.t3x",
+    "title": "UniStore Of Unistores",
+    "url": "https://Tycho10101.github.io/Uni-Stores/unistores.unistore",
+    "version": 3
+  }
+}
