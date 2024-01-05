@@ -40,7 +40,7 @@
           "3DS"
         ],
         "description": "Latest Dev version of Classicube.",
-        "icon_index": 1,
+        "icon_index": 0,
         "last_updated": "Check Github",
         "license": "",
         "releasenotes": "Check Github",
@@ -97,9 +97,9 @@
     "dsSheet": "classicube.tdx",
     "dsSheetURL": "",
     "file": "classicube.unistore",
-    "revision": 1,
+    "revision": 2,
     "sheet": "classicube.t3x",
-    "sheetURL": "",
+    "sheetURL": "https://Tycho10101.github.io/Uni-Stores/classicube.t3x",
     "title": "Classicube",
     "url": "https://Tycho10101.github.io/Uni-Stores/classicube.unistore",
     "version": 3
