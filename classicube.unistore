@@ -40,7 +40,7 @@
           "3DS"
         ],
         "description": "Latest Dev version of Classicube.",
-        "icon_index": 0,
+        "icon_index": 1,
 		"sheet_index": 0,
         "last_updated": "Check Github",
         "license": "",
@@ -81,7 +81,7 @@
           "3DS"
         ],
         "description": "Latest Stable version of Classicube.",
-        "icon_index": 1,
+        "icon_index": 0,
 		"sheet_index": 0,
         "last_updated": "Check Github",
         "license": "",
@@ -97,7 +97,7 @@
     "author": "Tycho10101",
     "description": "A Universal DB for getting Classicube on the 3ds",
     "file": "classicube.unistore",
-    "revision": 3,
+    "revision": 4,
     "sheet": "classicube.t3x",
     "sheetURL": "https://Tycho10101.github.io/Uni-Stores/classicube.t3x",
     "title": "Classicube",
