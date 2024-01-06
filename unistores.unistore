@@ -4,13 +4,8 @@
       "classicube": {
         "script": [
           {
-            "file": "https://tycho10101.github.io/Uni-Stores/classicube.unistore",
+            "file": "https://tycho10101.github.io/Uni-Stores/blank/classicube.unistore",
             "output": "%3DSX%/Universal-Updater/stores/classicube.unistore",
-            "type": "downloadFile"
-          },
-          {
-            "file": "https://tycho10101.github.io/Uni-Stores/classicube.t3x",
-            "output": "%3DSX%/Universal-Updater/stores/classicube.t3x",
             "type": "downloadFile"
           }
         ],
