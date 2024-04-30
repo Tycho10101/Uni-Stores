@@ -183,11 +183,11 @@
     "author": "Tycho10101",
     "description": "A Universal DB for getting Classicube on the 3ds",
     "file": "classicube.unistore",
-    "revision": 4,
+    "revision": 5,
     "sheet": "classicube.t3x",
     "sheetURL": "https://Tycho10101.github.io/Uni-Stores/classicube.t3x",
     "title": "Classicube",
     "url": "https://Tycho10101.github.io/Uni-Stores/classicube.unistore",
-    "version": 4
+    "version": 3
   }
 }
