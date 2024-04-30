@@ -1,11 +1,32 @@
 {
   "storeContent": [
+{
+"info": {
+        "author": "UnknownShadow",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "3DS"
+        ],
+        "description": "Latest Dev version of Classicube.",
+        "icon_index": 1,
+		"sheet_index": 0,
+        "last_updated": "Check Github",
+        "license": "",
+        "releasenotes": "Check Github",
+        "screenshots": [],
+        "title": "Classicube-Dev",
+        "version": "Latest-Dev",
+        "wiki": ""
+      }
+}
   ],
   "storeInfo": {
     "author": "Tycho10101",
     "description": "Open",
     "file": "classicube.unistore",
-    "revision": -1,
+    "revision": 0,
     "title": "Classicube (blank)",
     "url": "https://Tycho10101.github.io/Uni-Stores/classicube.unistore",
     "version": 3
