@@ -35,7 +35,7 @@
             "type": "extractFile"
           },
           {
-            "file": "/ClassiCube-3ds.3dsx.zip",
+            "file": "/ClassiCube-3ds.cia.zip",
             "type": "deleteFile"
           },
 	  {
@@ -183,7 +183,7 @@
     "author": "Tycho10101",
     "description": "A Universal DB for getting Classicube on the 3ds",
     "file": "classicube.unistore",
-    "revision": 6,
+    "revision": 7,
     "sheet": "classicube.t3x",
     "sheetURL": "https://Tycho10101.github.io/Uni-Stores/classicube.t3x",
     "title": "Classicube",
