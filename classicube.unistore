@@ -37,13 +37,13 @@
           {
             "file": "/ClassiCube-3ds.3dsx.zip",
             "type": "deleteFile"
-          }
+          },
 	  {
-	    "file": "/Classicube.cia"
+	    "file": "/Classicube.cia",
 	    "type": "installCia"
-	  }
+	  },
 	  {
-	    "file": "/Classicube.cia"
+	    "file": "/Classicube.cia",
 	    "type": "deleteFile"
 	  }
         ],
@@ -147,13 +147,13 @@
           {
             "file": "/ClassiCube-3ds.3dsx.zip",
             "type": "deleteFile"
-          }
+          },
 	  {
-	    "file": "/Classicube.cia"
+	    "file": "/Classicube.cia",
 	    "type": "installCia"
-	  }
+	  },
 	  {
-	    "file": "/Classicube.cia"
+	    "file": "/Classicube.cia",
 	    "type": "deleteFile"
 	  }
         ],
@@ -177,7 +177,7 @@
         "title": "Classicube-Dev",
         "version": "Latest-Dev",
         "wiki": ""
-      }
+      }}
   ],
   "storeInfo": {
     "author": "Tycho10101",
