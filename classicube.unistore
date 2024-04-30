@@ -24,10 +24,28 @@
       "Classicube.cia": {
         "script": [
           {
-            "type": "promptMessage",
-            "message": "Cia is not being produced yet",
-            "count": 0
+            "file": "https://nightly.link/UnknownShadow200/ClassiCube/workflows/build_3ds/master/ClassiCube-3ds.cia.zip",
+            "output": "/ClassiCube-3ds.cia.zip",
+            "type": "downloadFile"
+          },
+          {
+            "file": "/ClassiCube-3ds.cia.zip",
+            "input": "ClassiCube-3ds.cia",
+            "output": "/Classicube.cia",
+            "type": "extractFile"
+          },
+          {
+            "file": "/ClassiCube-3ds.3dsx.zip",
+            "type": "deleteFile"
           }
+	  {
+	    "file": "/Classicube.cia"
+	    "type": "installCia"
+	  }
+	  {
+	    "file": "/Classicube.cia"
+	    "type": "deleteFile"
+	  }
         ],
         "size": "1 MiB"
       },
@@ -91,7 +109,75 @@
         "version": "Latest-Stable",
         "wiki": ""
       }
-    }
+    },
+	{
+      "Classicube.3dsx": {
+        "script": [
+          {
+            "file": "https://github.com/ClassiCube/ClassiCube/actions/runs/8864471537/artifacts/1453967127",
+            "output": "/ClassiCube-3ds.3dsx.zip",
+            "type": "downloadFile"
+          },
+          {
+            "file": "/ClassiCube-3ds.3dsx.zip",
+            "input": "ClassiCube-3ds.3dsx",
+            "output": "%3DSX%/Classicube/Classicube.3dsx",
+            "type": "extractFile"
+          },
+          {
+            "file": "/ClassiCube-3ds.3dsx.zip",
+            "type": "deleteFile"
+          }
+        ],
+        "size": "1 MiB"
+      },
+      "Classicube.cia": {
+        "script": [
+          {
+            "file": "https://github.com/ClassiCube/ClassiCube/actions/runs/8864471537/artifacts/1453967113",
+            "output": "/ClassiCube-3ds.cia.zip",
+            "type": "downloadFile"
+          },
+          {
+            "file": "/ClassiCube-3ds.cia.zip",
+            "input": "ClassiCube-3ds.cia",
+            "output": "/Classicube.cia",
+            "type": "extractFile"
+          },
+          {
+            "file": "/ClassiCube-3ds.3dsx.zip",
+            "type": "deleteFile"
+          }
+	  {
+	    "file": "/Classicube.cia"
+	    "type": "installCia"
+	  }
+	  {
+	    "file": "/Classicube.cia"
+	    "type": "deleteFile"
+	  }
+        ],
+        "size": "1 MiB"
+      },
+      "info": {
+        "author": "UnknownShadow",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "3DS"
+        ],
+        "description": "Working Dev version of Classicube. DO NOT USE UNLESS THE LATEST DEV VERSION IS BROKEN",
+        "icon_index": 2,
+		"sheet_index": 0,
+        "last_updated": "Check Github",
+        "license": "",
+        "releasenotes": "Check Github",
+        "screenshots": [],
+        "title": "Classicube-Dev",
+        "version": "Latest-Dev",
+        "wiki": ""
+      }
   ],
   "storeInfo": {
     "author": "Tycho10101",
@@ -102,6 +188,6 @@
     "sheetURL": "https://Tycho10101.github.io/Uni-Stores/classicube.t3x",
     "title": "Classicube",
     "url": "https://Tycho10101.github.io/Uni-Stores/classicube.unistore",
-    "version": 3
+    "version": 4
   }
 }
