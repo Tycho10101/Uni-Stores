@@ -114,7 +114,7 @@
       "Classicube.3dsx": {
         "script": [
           {
-            "file": "https://github.com/ClassiCube/ClassiCube/actions/runs/8864471537/artifacts/1453967127",
+            "file": "https://productionresultssa13.blob.core.windows.net/actions-results/dcbd1f8a-10ce-48d9-b45d-3baccb1b853d/workflow-job-run-722f4f0d-e01e-5bbf-4d29-b8a86a0ffe26/artifacts/3fd3d3dbc48689d24edb31ae5b824a0a40a411199927324e8256d9cf13f14c63.zip?rscd=attachment%3B+filename%3D%22ClassiCube-3ds.3dsx.zip%22&se=2024-04-30T03%3A29%3A59Z&sig=JOGOw4JNz7XA6BwJ8jhyspMHJODdzUb4P2csjh4nWeg%3D&sp=r&spr=https&sr=b&st=2024-04-30T03%3A19%3A54Z&sv=2021-12-02",
             "output": "/ClassiCube-3ds.3dsx.zip",
             "type": "downloadFile"
           },
@@ -134,7 +134,7 @@
       "Classicube.cia": {
         "script": [
           {
-            "file": "https://github.com/ClassiCube/ClassiCube/actions/runs/8864471537/artifacts/1453967113",
+            "file": "https://productionresultssa13.blob.core.windows.net/actions-results/dcbd1f8a-10ce-48d9-b45d-3baccb1b853d/workflow-job-run-722f4f0d-e01e-5bbf-4d29-b8a86a0ffe26/artifacts/1226416310a2323ed0ffacdc7b3c45e9c8441e4eb06c1a21a77cf0d7b5450cbd.zip?rscd=attachment%3B+filename%3D%22ClassiCube-3ds.cia.zip%22&se=2024-04-30T03%3A30%3A47Z&sig=1Lk3LhxlpG4ztfsHgX%2F2ITlvBdIWtz1TDPaGjlzi1CY%3D&sp=r&spr=https&sr=b&st=2024-04-30T03%3A20%3A42Z&sv=2021-12-02",
             "output": "/ClassiCube-3ds.cia.zip",
             "type": "downloadFile"
           },
