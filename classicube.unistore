@@ -38,14 +38,14 @@
             "file": "/ClassiCube-3ds.cia.zip",
             "type": "deleteFile"
           },
-	  {
-	    "file": "/Classicube.cia",
-	    "type": "installCia"
-	  },
-	  {
-	    "file": "/Classicube.cia",
-	    "type": "deleteFile"
-	  }
+          {
+            "file": "/Classicube.cia",
+            "type": "installCia"
+          },
+          {
+            "file": "/Classicube.cia",
+            "type": "deleteFile"
+          }
         ],
         "size": "1 MiB"
       },
@@ -59,7 +59,7 @@
         ],
         "description": "Latest Dev version of Classicube.",
         "icon_index": 1,
-		"sheet_index": 0,
+        "sheet_index": 0,
         "last_updated": "Check Github",
         "license": "",
         "releasenotes": "Check Github",
@@ -100,7 +100,7 @@
         ],
         "description": "Latest Stable version of Classicube.",
         "icon_index": 0,
-		"sheet_index": 0,
+        "sheet_index": 0,
         "last_updated": "Check Github",
         "license": "",
         "releasenotes": "Check Github",
@@ -109,7 +109,7 @@
         "version": "Latest-Stable",
         "wiki": ""
       }
-    },
+    }
   ],
   "storeInfo": {
     "author": "Tycho10101",
