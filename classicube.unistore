@@ -109,6 +109,93 @@
         "version": "Latest-Stable",
         "wiki": ""
       }
+    },
+    {
+      "Classicube.nds": {
+        "script": [
+          {
+            "file": "https://nightly.link/ClassiCube/ClassiCube/workflows/build_nds/master/ClassiCube.nds.zip",
+            "output": "/ClassiCube.nds.zip",
+            "type": "downloadFile"
+          },
+          {
+            "count": 2,
+            "message": "Put the classicube folder on root, or in the roms/ folder\\nYes for root, No for roms/",
+            "type": "promptMessage"
+          },
+          {
+            "file": "/ClassiCube.nds.zip",
+            "input": "ClassiCube.nds",
+            "output": "roms/Classicube/Classicube.nds",
+            "type": "extractFile"
+          },
+          {
+            "count": 1,
+            "type": "skip"
+          },
+          {
+            "file": "/ClassiCube.nds.zip",
+            "input": "ClassiCube.nds",
+            "output": "Classicube/Classicube.nds",
+            "type": "extractFile"
+          },
+          {
+            "file": "/ClassiCube-3ds.3dsx.zip",
+            "type": "deleteFile"
+          }
+        ],
+        "size": "1 MiB"
+      },
+      "info": {
+        "author": "UnknownShadow",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "DS"
+        ],
+        "description": "Latest Dev version of Classicube for the DS.",
+        "icon_index": 3,
+        "sheet_index": 0,
+        "last_updated": "Check Github",
+        "license": "",
+        "releasenotes": "Check Github",
+        "screenshots": [],
+        "title": "Classicube-Dev",
+        "version": "Latest-Dev",
+        "wiki": ""
+      }
+    },
+    {
+      "Classicube.nds": {
+        "script": [
+          {
+            "type": "promptMessage",
+            "message": "No release versions yet",
+            "count": 0
+          }
+        ],
+        "size": "1 MiB"
+      },
+      "info": {
+        "author": "UnknownShadow",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "DS"
+        ],
+        "description": "Latest Stable version of Classicube for the DS.",
+        "icon_index": 2,
+        "sheet_index": 0,
+        "last_updated": "Check Github",
+        "license": "",
+        "releasenotes": "Check Github",
+        "screenshots": [],
+        "title": "Classicube",
+        "version": "Latest-Stable",
+        "wiki": ""
+      }
     }
   ],
   "storeInfo": {
@@ -120,6 +207,6 @@
     "sheetURL": "https://Tycho10101.github.io/Uni-Stores/classicube.t3x",
     "title": "Classicube",
     "url": "https://Tycho10101.github.io/Uni-Stores/classicube.unistore",
-    "version": 3
+    "version": 4
   }
 }
